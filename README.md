@@ -5,9 +5,9 @@
 # MegaDrive Coin
 [![ci/gh-acti ons/cli](https://github.com/AKowaa/megadrive-coin/actions/workflows/build.yml/badge.svg)](https://github.com/AKowaa/megadrive-coin/actions/workflows/build.yml)
 
-Copyright (c) 2014-2022 The Monero Project.  
-Portions Copyright (c) 2012-2013 The Cryptonote developers.
-Some Copyright (c) 2022-2023 The Megadrive Coin developers.
+###### Copyright (c) 2014-2022 The Monero Project. 
+###### Portions Copyright (c) 2012-2013 The Cryptonote developers. 
+###### Some Copyright (c) 2022-2023 The Megadrive Coin developers.
 
 
 ## Table of Contents
