@@ -1,7 +1,14 @@
-# Monero
+<p align="center">
+  <img width="200" src="https://avatars.githubusercontent.com/u/124246008?s=400&u=a5bd256981854b0f0dbbbb3e9c23b301b97a7281&v=4">
+</p>
+
+# MegaDrive Coin
+[![ci/gh-acti ons/cli](https://github.com/AKowaa/megadrive-coin/actions/workflows/build.yml/badge.svg)](https://github.com/AKowaa/megadrive-coin/actions/workflows/build.yml)
 
 Copyright (c) 2014-2022 The Monero Project.  
 Portions Copyright (c) 2012-2013 The Cryptonote developers.
+Some Copyright (c) 2022-2023 The Megadrive Coin developers.
+
 
 ## Table of Contents
 
