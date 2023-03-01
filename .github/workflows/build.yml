@@ -96,7 +96,7 @@ jobs:
       run: ${{env.APT_SET_CONF}}
     - name: update apt
       run: sudo apt update
-    - name: install monero dependencies
+    - name: install megadrivecoin dependencies
       run: ${{env.APT_INSTALL_LINUX}}
     - name: build
       run: |
@@ -183,7 +183,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: ${{ env.OUTPUT }}
-        path: /home/runner/work/monero/monero/${{ env.OUTPUT }}
+        path: /home/runner/work/megadrivecoin/MEGA/${{ env.OUTPUT }}
 
 name: Release
 on: 
@@ -200,7 +200,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Create a Release
-      uses: elgohr/Github-Release-Action@main
+      uses: actions/Github-Release-Action@main
       env:
         GITHUB_TOKEN: ${{ secrets.RELEASE_TOKEN }}
       with:
