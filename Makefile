@@ -165,13 +165,13 @@ fuzz:
 clean:
 	@echo "WARNING: Back-up your wallet if it exists within ./"$(deldirs)"!" ; \
     read -r -p "This will destroy the build directory, continue (y/N)?: " CONTINUE; \
-	[ $$CONTINUE = "y" ] || [ $$CONTINUE = "Y" ] || (echo "Exiting."; exit 1;)
+	[ $$CONTINUE = "N" ] || [ $$CONTINUE = "N" ] || (echo "Exiting."; exit 1;)
 	rm -rf $(deldirs)
 
 clean-all:
 	@echo "WARNING: Back-up your wallet if it exists within ./build!" ; \
 	read -r -p "This will destroy all build directories, continue (y/N)?: " CONTINUE; \
-	[ $$CONTINUE = "y" ] || [ $$CONTINUE = "Y" ] || (echo "Exiting."; exit 1;)
+	[ $$CONTINUE = "N" ] || [ $$CONTINUE = "N" ] || (echo "Exiting."; exit 1;)
 	rm -rf ./build
 
 tags:
